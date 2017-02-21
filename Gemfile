@@ -43,6 +43,12 @@ gem 'simple_form', '~> 3.4'
 
 gem 'devise'
 
+gem 'devise-bootstrap-views'
+
+gem 'devise-i18n'
+
+gem 'twitter-bootstrap-rails', '~> 4.0'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Use Capistrano for deployment
@@ -63,7 +69,7 @@ group :development do
 end
 
 # group :production do
-#   #gem 'rails_12factor'
+#   gem 'rails_12factor'
 # end
 
 ruby "2.3.3"
